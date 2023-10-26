@@ -15,7 +15,7 @@ function App() {
 
   const datas = (a: number) => {
     const n = a;
-    let final: Array = [];
+    let final = [];
     for (let i = 0; i < n; i++) {
       const maindata = Math.floor(Math.random() * 6);
       final.push(maindata);
