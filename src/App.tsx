@@ -5,7 +5,7 @@ import pana from "./assets/pana.png";
 import hukum from "./assets/hukum.png";
 import itta from "./assets/itta.png";
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [finalState, setFinalState] = useState([0, 1, 2, 3, 4, 5]);
@@ -18,20 +18,11 @@ function App() {
     let final: Array = [];
     for (let i = 0; i < n; i++) {
       const maindata = Math.floor(Math.random() * 6);
-      // console.log(maindata);
       final.push(maindata);
-      console.log(final);
     }
 
-    console.log(final);
     return final;
   };
-
-  // useEffect(() => {
-  //   setFinalState(datas(6));
-  // }, []);
-
-  const data = [1, 2, 3, 3];
 
   return (
     <>
