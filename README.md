@@ -1,27 +1,38 @@
-# React + TypeScript + Vite
+# langur Burja
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Langur Burja, a dice game that keeps you on your toes, Langur Burja (aka “Jhanda Burja” and “Khor Khore” as well as “Crown and Anchor”), is popularly played across Nepal, especially during the span of Dashain and Tihar. This grip-ping game, in its ethos, is very similar to Bầu cua tôm cá played in Vietnam, Hoo Hey How played in China, and the dice game Crown and Anchor played by British sailors, or Chuck-A-Luck played in America.
 
-Currently, two official plugins are available:
+- Contains: 6 boards (21 cm), and instruction paper
+  - set with 3 dice (size of dice 2.5 cm)
+  - set with 6 dice (size of dice 2 cm)
+- Players: Multiple
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Play ?
+This dice game comes with three dice and aboard. Each dice has six faces with different symbols: Jhanda (Flag), Burja (Crown), Itta (Diamond), Paan (Heart), Hukum (Spade), and Chidi (Club). The board also has the same size symbols on it. The game is played between a banker, who rolls the dice, and the players, who place their bets on one or more symbols on the boards. The players will only win if the symbols they placed their bet on show up on the faces of the dices rolled.
 
-## Expanding the ESLint configuration
+## Origion Of game
+Original Game Designed and developed by Kazi Studios
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![App Screenshot](https://i.ibb.co/dj5GgrQ/langurburja.png)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Authors
+
+- [@sewakgautam](https://www.github.com/sewakgautam)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Contributing
+
+Contributions are always welcome!
+
+
